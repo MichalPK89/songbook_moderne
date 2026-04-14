@@ -122,6 +122,15 @@ function renderSong(song) {
 document.getElementById("music").innerHTML = "hudba: " + document.getElementById("music").innerHTML;
 document.getElementById("lyrics").innerHTML = "text: " + document.getElementById("lyrics").innerHTML;
 
+<!-- pridaj transposer -->
+function loadHTML(id, file) {
+    fetch(file)
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById(id).innerHTML = data
+        })
+}
+
 <!-- renderuj text a akordy-->
 renderSong(song);
 
