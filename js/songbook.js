@@ -94,6 +94,11 @@ function changeKey(step) {
     renderSong(song)
 }
 
+function reset_transposing {
+    TRANSPOSE = 0
+    renderSong(song)
+}
+
 
 function renderSong(song) {
 
