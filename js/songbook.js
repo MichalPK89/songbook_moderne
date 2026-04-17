@@ -99,10 +99,16 @@ function resetKey() {
     renderSong(song)
 }
 
-function hide() {
-    document.getElementsByClassName("chords").style.display = "none"
-	document.getElementByClassName("chord").color = "blue";
-    renderSong(song)
+let chordsVisible = true
+
+function toggleChords() {
+    const chords = document.getElementsByClassName("chords")
+
+    chordsVisible = !chordsVisible
+
+    for (let el of chords) {
+        el.style.display = chordsVisible ? "block" : "none"
+    }
 }
 
 
