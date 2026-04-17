@@ -99,16 +99,8 @@ function resetKey() {
     renderSong(song)
 }
 
-let chordsVisible = true
-
 function toggleChords() {
-    const chords = document.getElementsByClassName("chords")
-
-    chordsVisible = !chordsVisible
-
-    for (let el of chords) {
-        el.style.display = chordsVisible ? "block" : "none"
-    }
+    document.getElementById("song").classList.toggle("hide-chords")
 }
 
 
