@@ -100,7 +100,7 @@ function resetKey() {
 }
 
 function hide() {
-    document.getElementByClassName("chords").display = "none";
+    document.getElementsByClassName("chords").style.display = "none"
 	document.getElementByClassName("chord").color = "blue";
     renderSong(song)
 }
