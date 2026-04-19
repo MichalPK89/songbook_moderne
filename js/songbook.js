@@ -108,7 +108,6 @@ function renderSettings() {
         <p>
             <button onclick="changeKey(-2)">-2</button>
             <button onclick="changeKey(-1)">-1</button>
-            <span style="margin:0 10px;">${TRANSPOSE}</span>
             <button onclick="changeKey(1)">+1</button>
             <button onclick="changeKey(2)">+2</button>
             
