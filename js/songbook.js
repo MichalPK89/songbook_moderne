@@ -115,6 +115,7 @@ function renderSettings() {
             &nbsp;
             <button onclick="resetKey()">Reset</button>
             <button onclick="toggleChords()">Akordy</button>
+            <button onclick="copySong()">Copy</button>
         </p>
     `
 }
