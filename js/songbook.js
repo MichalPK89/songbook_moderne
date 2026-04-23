@@ -206,6 +206,11 @@ function renderSong(song) {
 
 <!-- pridaj info -->
 
+function loadSong(key) {
+    const file = songs[key].file
+    window.location.href = file
+}
+
 function showSongInfo(key) {
     const s = songs[key]
 
