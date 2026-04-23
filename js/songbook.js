@@ -1,5 +1,5 @@
 const songs = {
-  cervernaReka: {
+  cervena_reka: {
     title: "Červená řeka",
     file: "cervena_reka.html",
     author: "tradicionál",
