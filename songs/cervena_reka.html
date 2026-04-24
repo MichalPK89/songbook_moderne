@@ -52,7 +52,12 @@ dokud sám se zas k nám nevrátí.
 <script>
 
   renderSettings()
-  document.getElementById("test").innerHTML = location.href.split("/").slice(-1);
+  let path = location.href.split("/").slice(-1);
+  if (key.substring(key.length - 5,5) = ".html") 
+    {path}
+  else
+    {path + ".html"}
+  document.getElementById("test").innerHTML = key;
   initPage()
   renderSong(song)
 </script>
