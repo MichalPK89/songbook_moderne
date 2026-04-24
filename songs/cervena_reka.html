@@ -10,6 +10,7 @@
 <body>
 
 <div id = "info"></div>
+<div id = "test"></div>
 
 <br>
 <div id="settings"></div>
@@ -55,7 +56,7 @@ dokud sám se zas k nám nevrátí.
     const params = new URLSearchParams(window.location.search)
     return params.get("song")
 }
-	
+  document.getElementById("test").innerHTML = getSongKey();
   initPage()
   renderSong(song)
 </script>
