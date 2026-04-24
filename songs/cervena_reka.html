@@ -53,7 +53,7 @@ dokud sám se zas k nám nevrátí.
 
   renderSettings()
   function getFileName() {
-	let path = "test.html";
+	let path = location.href.split("/").slice(-1);
 	if (path.substring(path.length - 5) == ".html") 
 		{key = path}
 	else
