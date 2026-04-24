@@ -53,13 +53,11 @@ dokud sám se zas k nám nevrátí.
 
   renderSettings()
   function getFileName() {
-	let path = location.href.split("/").slice(-1);
-	if (path.substring(path.length - 5) == ".html") 
-		{key = path}
-	else
-		{key = path + ".html"}
-	return key;
+    let path = window.location.pathname
+    let file = path.split("/").pop()
+    return file
   }
+  
   document.getElementById("test").innerHTML = getFileName();
   initPage()
   renderSong(song)
