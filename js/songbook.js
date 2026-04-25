@@ -224,8 +224,9 @@ function initPage() {
     .find(s => s.file === key)
 
     document.getElementById("info").innerHTML = `
-        <h3>${song.title}</h3>
-        <p>${song.author} • ${song.lyrics}</p>
+        <h2>${song.title}</h2>
+        <p>${song.author}</p>
+		<p>text: ${song.lyrics}</p>
     `
 }
 
