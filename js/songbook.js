@@ -218,7 +218,7 @@ function getFileName() {
   }
 
 function initPage() {
-    const key = getSongKey()
+    const key = getFileName()
 
     if (!key || !songs[key]) return
 
