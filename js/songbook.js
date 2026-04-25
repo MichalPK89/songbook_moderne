@@ -206,10 +206,16 @@ function renderSong(song) {
 
 <!-- pridaj info -->
 
-function loadSong(key) {
-    const s = songs[key]
-    window.location.href = s.file + "?song=" + key
-}
+function getFileName() {
+    let path = window.location.pathname
+    let file = path.split("/").pop()
+	if (file.substring(file.length - 5) == ".html"){
+		file = file;
+    } else {
+		file = file + ".html"
+	}
+	  return file
+  }
 
 function initPage() {
     const key = getSongKey()
