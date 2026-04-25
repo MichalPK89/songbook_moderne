@@ -218,11 +218,10 @@ function getFileName() {
   }
 
 function initPage() {
-    const key = getFileName()
-
-    if (!key || !songs[key]) return
-
-    const s = songs[key]
+    
+    const key = getFileName();
+	const song = Object.values(songs)
+    .find(s => s.file === key)
 
     document.getElementById("info").innerHTML = `
         <h3>${s.title}</h3>
