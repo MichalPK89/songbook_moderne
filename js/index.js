@@ -1,11 +1,12 @@
-
 function createSongList() {
-  let songs = songs;
-  let index = fruits.forEach(get_songs);
-  document.getElementById("list").innerHTML = index;
+  let text = "";  
+  for (song in songs) {
+      text += songs[song].title
+      text += songs[song].performer
+      text += songs[song].author
+      text += songs[song].genre
+      }
+  
+  document.getElementById("list").innerHTML = text;  
 }
 
-function get_songs (item, index) {
-  text += index + ": " + item + "<br>"; 
-  
-}
