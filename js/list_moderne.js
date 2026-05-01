@@ -1,7 +1,7 @@
 const songs = {
   cervena_reka: {
     title: "Červená řeka",
-    file: "cervena_reka.html",
+    performer: "Helena Vondráčková",
     author: "tradicionál",
     lyrics: "Ivo Fischer",
     genre: "folk"
@@ -9,6 +9,7 @@ const songs = {
 
   Other_song: {
     title: "Name",
+    performer: "test",
     author: "autor",
     genre: "rock",
     file: "Other_song.html"
