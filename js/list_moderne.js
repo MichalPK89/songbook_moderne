@@ -11,7 +11,8 @@ const songs = {
     title: "Name",
     performer: "test",
     author: "autor",
+    lyrics: "autor",
     genre: "rock",
-    file: "Other_song.html"
+    
   }
 }
