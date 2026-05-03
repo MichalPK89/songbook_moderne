@@ -37,8 +37,12 @@ function createSongList() {
 		var row = document.createElement("TR");
 		
 		var cell = document.createElement("TD");
+		var a = document.createElement("a");
 		var text = document.createTextNode(songs[song].title);
-		cell.appendChild(text);
+		a.appendChild(text);
+		a.title = "odkaz";
+		a.href = "http://example.com";
+		cell.appendChild(a);
 		row.appendChild(cell);
 		
 		var cell = document.createElement("TD");
