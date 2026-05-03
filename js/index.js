@@ -41,7 +41,7 @@ function createSongList() {
 		var text = document.createTextNode(songs[song].title);
 		a.appendChild(text);
 		a.title = "odkaz";
-		a.href = "http://example.com";
+		a.href = folder + "/" + song + ".html";
 		cell.appendChild(a);
 		row.appendChild(cell);
 		
