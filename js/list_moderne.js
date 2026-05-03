@@ -1,3 +1,5 @@
+const folder = "songs_moderne";
+
 const songs = {
   cervena_reka: {
     title: "Červená řeka",
