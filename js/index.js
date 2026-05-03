@@ -7,14 +7,31 @@ function createSongList() {
   x.appendChild(tbody);
   document.body.appendChild(x);
   
-  /*
+  
   var row = document.createElement("TR");
+  
   var cell = document.createElement("TH");
-  var text = "Názov";
+  var text = document.createTextNode("Názov");
   cell.appendChild(text);
   row.appendChild(cell);
+  
+  var cell = document.createElement("TH");
+  var text = document.createTextNode("Interpret");
+  cell.appendChild(text);
+  row.appendChild(cell);
+  
+  var cell = document.createElement("TH");
+  var text = document.createTextNode("Autor");
+  cell.appendChild(text);
+  row.appendChild(cell);
+  
+  var cell = document.createElement("TH");
+  var text = document.createTextNode("žáner");
+  cell.appendChild(text);
+  row.appendChild(cell);
+  
   x.appendChild(row);
-  */
+  
   for (song in songs) {
 		
 		var row = document.createElement("TR");
