@@ -1,5 +1,7 @@
 const folder = "songs_moderne";
 
+const home = "../index_moderne.html";
+
 const songs = {
   cervena_reka: {
     title: "Červená řeka",
