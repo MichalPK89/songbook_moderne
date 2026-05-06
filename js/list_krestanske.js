@@ -11,6 +11,7 @@ const songs = {
     lyrics: "",
     genre: "",
     file: "dotkni_sa.html",
+    usage: ["prijímanie"],
     video: "https://www.youtube.com/watch?v=505CrV4U664"
   }
 
