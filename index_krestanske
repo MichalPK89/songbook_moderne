@@ -1,1 +1,28 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Moderné piesne</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+    li { margin: 8px 0; }
+  </style>
+</head>
+<body>
+
+<h1>Kresťanské piesne 🎵</h1>
+
+
+  <div id="list"></div>
+  
+
+
+<script src="js/list_krestanske.js"></script>
+<script src="js/index.js"></script>
+<script>
+  createSongList()
+</script>
+
+</body>
+</html>
