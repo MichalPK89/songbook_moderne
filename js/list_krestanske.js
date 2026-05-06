@@ -10,7 +10,7 @@ const songs = {
     author: "neznámy",
     lyrics: "",
     genre: "",
-    file: "dotkni_sa.html"
+    file: "dotkni_sa.html",
     video: "https://www.youtube.com/watch?v=505CrV4U664"
   }
 
