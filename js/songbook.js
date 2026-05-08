@@ -207,8 +207,7 @@ function getFileName() {
 function initPage() {
     
     const key = getFileName();
-	const song = Object.values(songs)
-    .find(s => s.file === key)
+	const song = songs[key];
 
     document.getElementById("info").innerHTML = `
         <div id="title">${song.title}</div>
