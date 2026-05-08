@@ -42,6 +42,16 @@ const songs = {
     genre: "",
     usage: ["úvod"],
     video: ""
+  },
+
+  vzdy_je_s_nami_ta: {
+    title: "Vždy je s nami tá",
+    performer: "",
+    music: "M. Čekovský st., E. Čekovská st.",
+    lyrics: "",
+    genre: "",
+    usage: ["záver"],
+    video: ""
   }
 
   
