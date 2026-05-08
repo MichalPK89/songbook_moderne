@@ -211,7 +211,7 @@ function initPage() {
 
     document.getElementById("info").innerHTML = `
         <div id="title">${song.title}</div>
-        <div id="author">hudba: ${song.author}</div>
+        <div id="author">hudba: ${song.music}</div>
 		<div id="author">text: ${song.lyrics}</div>
     `
 }
