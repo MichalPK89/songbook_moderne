@@ -14,6 +14,16 @@ const songs = {
     video: "https://www.youtube.com/watch?v=505CrV4U664"
   },
 
+  obeta_srdca: {
+    title: "Obeta srdca",
+    performer: "Richard Čanaky",
+    music: "Matt Redman",
+    lyrics: "",
+    genre: "",
+    usage: ["obetovanie"],
+    video: "https://www.youtube.com/watch?v=Hv2PT-n6W60"
+  },
+
   vzdajme_vdaku: {
     title: "Vzdajme vďaku",
     performer: "Lamačské chvály",
