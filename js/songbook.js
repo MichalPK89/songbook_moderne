@@ -206,7 +206,7 @@ function getFileName() {
 
 function initPage() {
     
-    const key = getFileName();
+    const key = getFileName().replace(".html","");
 	const song = songs[key];
 
     document.getElementById("info").innerHTML = `
