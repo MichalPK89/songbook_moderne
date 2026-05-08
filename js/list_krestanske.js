@@ -7,7 +7,7 @@ const songs = {
   dotkni_sa: {
     title: "Dotkni sa (mojich očí)",
     performer: "",
-    music: "neznámy",
+    music: "Franciszka Godlewska",
     lyrics: "",
     genre: "",
     usage: ["prijímanie"],
