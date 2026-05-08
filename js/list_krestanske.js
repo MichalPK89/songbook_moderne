@@ -24,6 +24,16 @@ const songs = {
     video: "https://www.youtube.com/watch?v=Hv2PT-n6W60"
   },
 
+  vezmi_moje_srdce: {
+    title: "Vezmi moje srdce",
+    performer: "PiarMusic",
+    music: "-",
+    lyrics: "-",
+    genre: "",
+    usage: ["prijímanie"],
+    video: "https://www.youtube.com/watch?v=sF5sGW7qo-4"
+  },
+
   vzdajme_vdaku: {
     title: "Vzdajme vďaku",
     performer: "Lamačské chvály",
