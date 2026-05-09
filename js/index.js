@@ -21,7 +21,7 @@ function createSongList() {
   row.appendChild(cell);
   
   var cell = document.createElement("TH");
-  var text = document.createTextNode("Autor");
+  var text = document.createTextNode("Hudba");
   cell.appendChild(text);
   row.appendChild(cell);
   
@@ -51,7 +51,7 @@ function createSongList() {
 		row.appendChild(cell);
 		
 		var cell = document.createElement("TD");
-		var text = document.createTextNode(songs[song].author);
+		var text = document.createTextNode(songs[song].music);
 		cell.appendChild(text);
 		row.appendChild(cell);
 		
