@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Moderné piesne</title>
+  <link rel="stylesheet" href="css/index.css">
   <style>
     body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; }
     li { margin: 8px 0; }
@@ -12,7 +13,8 @@
 
 <h1>Moderné piesne 🎵</h1>
 
-
+  <input type="text" id="filter" onkeyup="filterTable()" placeholder="Vyhľadávanie" title="Type in a name">
+  <br><br>
   <div id="list"></div>
   
 
