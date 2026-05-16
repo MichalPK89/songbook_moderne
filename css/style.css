@@ -25,6 +25,8 @@ body {
 .chord {
   position: absolute;
   font-weight: bold;
+  white-space: nowrap;
+  font-family: monospace;
   color:#C000C0;
 }
 
