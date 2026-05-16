@@ -9,14 +9,17 @@ const songs = {
     music: "tradicionál",
     lyrics: "Ivo Fischer",
     genre: "folk",
-    language: "cz"
+    language: "cz",
+    video: "https://www.youtube.com/watch?v=0yD07CFelIs"
   },
 
-  Other_song: {
-    title: "Name",
-    performer: "test",
-    music: "autor",
-    lyrics: "autor",
-    genre: "rock",
+  archimedes: {
+    title: "Archimedes",
+    performer: "Bratři Ebenové",
+    music: "Bratři Ebenové",
+    lyrics: "Bratři Ebenové",
+    genre: "folk",
+    language: "cz",
+    video: "https://www.youtube.com/watch?v=cn1lAVgMdVM"
   }
 }
