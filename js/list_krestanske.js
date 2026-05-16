@@ -11,6 +11,7 @@ const songs = {
     lyrics: "",
     genre: "",
     usage: ["prijímanie"],
+    theme: [""],
     video: "https://www.youtube.com/watch?v=505CrV4U664"
   },
 
@@ -21,6 +22,7 @@ const songs = {
     lyrics: "",
     genre: "",
     usage: ["obetovanie"],
+    theme: [""],
     video: "https://www.youtube.com/watch?v=Hv2PT-n6W60"
   },
 
@@ -31,6 +33,7 @@ const songs = {
     lyrics: "-",
     genre: "",
     usage: ["prijímanie"],
+    theme: [""],
     video: "https://www.youtube.com/watch?v=sF5sGW7qo-4"
   },
 
@@ -41,6 +44,7 @@ const songs = {
     lyrics: "Lamačské chvály",
     genre: "",
     usage: ["úvod"],
+    theme: ["vďaka"],
     video: ""
   },
 
@@ -51,6 +55,7 @@ const songs = {
     lyrics: "",
     genre: "",
     usage: ["záver"],
+    theme: ["Mariánska"],
     video: ""
   }
 
