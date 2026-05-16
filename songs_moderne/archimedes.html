@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<div id = "info"></div>
+<br>
+<div id="settings"></div>
+<br><br>
+<div id="song"></div>
+
+<script>
+
+const song =
+`D C/D D C/D
+1. [D]Filoso[C/D]fem [D]člověk se [C/D]stane,
+[D]jen když to [C/D]dělá [Hmi]fortel[Ami7]ně,
+[D]mně vám to [C/D]jde [D]nejlíp ve [C/D]vaně,
+[D]mně to jde [C/D]nejlíp [Hmi]v koupel[Ami7]ně.
+
+R: Když [C/D]vana [G]přeté[C]ká, volám [F]"heuré[C]ka!"
+a [G]šplouchám [Ami7]jako malý [D]děcko,
+když [C/D]vana [G]přeté[C]ká, volám [F]"heuré[C]ka!",
+a [G]koukat [Ami7]bude celý [D]Řecko,
+Ami7 Hmi7 Ami7 C/D G
+[Ami7]jak se dělá [Hmi]věda [Ami7]ve vaně u [C/D]Archimé[G]da.
+
+2. Formulovat složité teze
+je základ filosofie,
+většinou chlap do vany leze
+s tím, že se jenom umyje.
+
+R:
+`
+</script>
+
+<script src="../js/list_moderne.js"></script>
+<script src="../js/songbook.js"></script>
+<script>
+  initPage()
+  renderSettings()
+  renderSong(song)
+</script>
+
+</body>
+<html>
